@@ -1,8 +1,8 @@
- 'use client';
+'use client';
 
 import { useState, useEffect } from 'react';
-import Logo from '../../components/Logo';
 import { useRouter } from 'next/navigation';
+import Logo from '../../components/Logo';
 
 interface Book {
   id?: number;
@@ -322,7 +322,7 @@ export default function DashboardPage() {
       </header>
 
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-       
+
         {searchResults.length === 0 && (
           <div className="mb-8">
             <div className="bg-gradient-to-r from-teal-500 to-teal-600 rounded-2xl p-8 text-white">
@@ -379,7 +379,7 @@ export default function DashboardPage() {
         )}
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-    
+          {/* Main Content */}
           <div className="lg:col-span-2">
             {searchResults.length > 0 && (
               <div>
