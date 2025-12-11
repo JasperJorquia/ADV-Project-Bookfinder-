@@ -6,5 +6,5 @@ Features
 
 Search books via the Open Library API, add items to wishlist/reading/completed lists, set reading goals, and track progress with simple CRUD operations and activity entries. Includes user authentication (register/login), profile and settings modals, and responsive UI components for both desktop and mobile.
 
-e.
+
 
